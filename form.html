@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>HTML Forms</title>
+</head>
+
+<body>
+  <form method="GET">
+    <input type="hidden" name="q" value="scoala informala" />
+
+    <div>
+      <label for="username">Username</label>
+      <input id="username" name="username" value="vlad" type="text" disabled>
+    </div>
+
+    <div>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password">
+    </div>
+
+    <textarea name="comments">
+      This is a multi-line text field
+    </textarea>
+
+    <div>
+      <label for="apple">apple</label>
+      <input id="apple" type="radio" name="fruit" value="apple" />
+
+      <label for="banana">banana</label>
+      <input id="banana" checked type="radio" name="fruit" value="banana" />
+    </div>
+
+    <div>
+      <select name="level" multiple>
+        <!-- <option value="1" selected>Beginner</option> -->
+        <option>---</option>
+        <option value="1">Beginner</option>
+        <option value="2" disabled>Intermediate</option>
+        <option value="3">Advanced</option>
+      </select>
+    </div>
+
+    <fieldset>
+      <legend>Client Details</legend>
+      <input type="text" id="Name">
+      <input type="text" id="Phone">
+    </fieldset>
+
+    <input type="submit" value="Send data">
+    <input type="button" value="Button input">
+    <button type="reset">This is a button tag</button>
+    <br>
+    <br>
+    <br>
+    <!-- tabindex example -->
+    <div>
+      <input tabindex="1" type="text">1
+      <input tabindex="3" type="text">3
+      <input tabindex="5" type="text">5
+    </div>
+    <div>
+      <input tabindex="2" type="text">2
+      <input tabindex="4" type="text">4
+      <input tabindex="6" type="text">6
+    </div>
+  </form>
+
+  <iframe src="https://digi24.ro"></iframe>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+body {
+  /* background: lightblue; */
+}
+
+.result-list {
+  padding-left: 40px;
+}
+
+.underline {
+  text-decoration: underline;
+}
